@@ -19,7 +19,7 @@ sudo apt-get install nginx -ynodejs
 
 
 # install the pm2 from npm
-sudo npm install -g pm2
+sudo npm install pm2 -g
 
 #  Install the git 
 sudo apt-get install git -y
