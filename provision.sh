@@ -40,7 +40,7 @@ sudo rm -r /etc/nginx/sites-available/default
 
 cd ~/
 
- sudo cp /home/ubuntu/rdevEnvironment/nginx.default /etc/nginx/sites-available
+ sudo cp /home/ubuntu/environment/nginx.default /etc/nginx/sites-available
 
  sudo mv /etc/nginx/sites-available/nginx.default /etc/nginx/sites-available/default
 
