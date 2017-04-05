@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC"
+=======
+  "license": "ISC",
+  "dependencies": {
+    "github-webhook-handler": "^0.6.0"
+  }
+>>>>>>> 9ae6320a3ea14fef91a328a289ab5afd7bd79335
 }
