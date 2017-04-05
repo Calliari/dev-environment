@@ -53,5 +53,3 @@ cd ~/
 sudo service nginx restart
 
 echo 'script runned'
-
-
