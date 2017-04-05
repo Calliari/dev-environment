@@ -22,6 +22,4 @@ handler.on('push', function (event) {
         console.log(message);
   });
 
-
-
 })
