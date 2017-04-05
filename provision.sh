@@ -7,15 +7,15 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 
 # Install the package for nginx
-sudo apt-get install nginx -y
+sudo apt-get install nginx -ynodejs
 
 # install node.js  version 7
-sudo npm cache clean -f
-sudo apt-get install -y nodejs
+# sudo npm cache clean -f
+# sudo apt-get install -y 
 
 # install node.js  version 6
-# curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-# sudo apt-get install -y nodejs
+ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+ sudo apt-get install -y nodejs
 
 
 # install the pm2 from npm
