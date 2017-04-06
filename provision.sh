@@ -45,8 +45,7 @@ cd ~/
 sudo service nginx restart
 
 #############################
-echo 'eval `ssh-agent -s`' >> ~/.bashrc
-echo 'ssh-add ~/.ssh/gitHub_key' >> ~/.bashrc 
+
 
 
 
