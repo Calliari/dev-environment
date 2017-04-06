@@ -7,7 +7,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 
 # Install the package for nginx
-sudo apt-get install nginx -ynodejs
+sudo apt-get install nginx -y nodejs
 
 # install node.js  version 7
 # sudo npm cache clean -f
@@ -32,10 +32,7 @@ sudo apt-get install git -y
 sudo apt-get install curl
 sudo apt-get install nginx
 
-
-
-# change directory 
-
+# remove default
 sudo rm -r /etc/nginx/sites-available/default 
 
 cd ~/
@@ -43,11 +40,6 @@ cd ~/
  sudo cp /home/ubuntu/environment/nginx.default /etc/nginx/sites-available
 
  sudo mv /etc/nginx/sites-available/nginx.default /etc/nginx/sites-available/default
-
-
-# sudo rm -r ~/default 
-
-
 
 # restart the server
 sudo service nginx restart
