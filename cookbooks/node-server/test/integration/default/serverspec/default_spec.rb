@@ -30,7 +30,6 @@ end
 # 	its (:stdout) { should match /2\.7\.4/ }
 # end
 
-
 describe package ("pm2") do 
 	it { should be_installed.by('npm') }
 end
