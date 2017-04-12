@@ -1,7 +1,7 @@
 # pull down new code
 
 
-cd ~/evironment
+cd ~/environment
 git pull
 berks vendor cookbooks
 sudo chef-client --local-mode --runlist 'recipe[node-server]'
