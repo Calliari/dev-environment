@@ -33,6 +33,7 @@ end
 describe package ("pm2") do 
 	it { should be_installed.by('npm') }
 end
+#
 
 
 
